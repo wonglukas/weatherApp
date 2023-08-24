@@ -15,4 +15,4 @@ The OpenWeatherMap API has been redacted, in order to make it work you must repl
 
 
 **HOW IT LOOKS**
-![Screenshot](screenshot.png)
+![Screenshot](screenshot.jpg)
