@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">        <!-- link to style.css file -->
+    <title>Lukas Wong - Weather Dashboard</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Weather Web App</h1>
+        <p>Created by Lukas Wong</p>
+    </div>
+    <div class="container">
+        <h1>Weather Dashboard</h1>
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button id="searchBtn">Search</button>
+        <div id="weatherInfo" class="weather-info">
+            <div class="current-weather">
+                <h2>Current Weather Information</h2>
+                <p id="currentDate"></p>
+                <p id="currentTemperature"></p>
+                <p id="currentDescription"></p>
+                <p id="precipitationChance"></p>
+            </div>
+            <div class="weekly-forecast">
+                <h2>7 Day Weekly Forecast</h2>
+                <ul id="forecastList"></ul>
+            </div>
+        </div>
+    </div>
+    <script src="weatherApp.js"></script>
+
+    <div class="explanation">
+        <h2>How/why this web app was created</h2>
+        <p>
+            This Weather Dashboard was created by Lukas Wong as a demonstration of fetching real-time weather data
+            using OpenWeatherMap's API, and for understanding API endpoints. It displays current conditions, forecasts, and allows searching
+            for cities to view their weather information.
+        </p>
+        <p>
+            The frontend was built using HTML, CSS, and JavaScript. The OpenWeatherMap API provides the
+            weather data, which is fetched and displayed dynamically on this page.
+        </p>
+        <p>
+            This app was deployed using AWS Amplify, a cloud service that simplifies the process of
+            deploying and hosting web applications. The deployment process involved connecting a code
+            repository, configuring build settings, and deploying the app to a domain provided by AWS Amplify.
+        </p>
+    </div>
+</body>
+</html>
