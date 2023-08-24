@@ -11,7 +11,9 @@
 **How it's deployed:**  This app was deployed using AWS Amplify, a cloud service that simplifies the process of deploying and hosting web applications. The deployment process involved connecting a code repository, configuring build settings, and deploying the app to a domain provided by AWS Amplify.
 
 **NOTE:**
-The OpenWeatherMap API has been redacted, in order to make it work you must replace it with your own in the weatherApp.js file
+
+- The OpenWeatherMap API has been redacted, in order to make it work you must replace it with your own in the weatherApp.js file
+- I have removed this webapp from AWS Amplify deployment (to save money)
 
 
 **HOW IT LOOKS**
